@@ -3785,3 +3785,5 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 
 /*Fix for version 3.1.1*/
 .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar), .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider { background: #1E1E1E;}
+
+.c-message--light .c-message__sender .c-message__sender_link { color: #b7b7b7;}
