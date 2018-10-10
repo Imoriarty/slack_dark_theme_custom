@@ -738,7 +738,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #edit_topic_trigger { color: #949494; }
 
-.day_divider, .mention_day_container_div .day_divider { background: #222; color: #949494; }
+.day_divider, .mention_day_container_div .day_divider { background: #222; color: #666666; }
 
 .day_divider hr, .mention_day_container_div .day_divider hr { border-bottom: 0; border-top: 1px solid #363636; }
 
