@@ -772,7 +772,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .day_container .day_divider { background: none; color: #777; }
 
-.day_container .day_divider .day_divider_label { background: #222; }
+.day_container .day_divider .day_divider_label .day_divider_label_pill { background: #222; }
 
 .search_form { border-color: #545454; }
 
