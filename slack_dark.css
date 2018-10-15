@@ -335,7 +335,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #message_edit_form .emo_menu { color: var(--border-darken); }
 
-#message_edit_form .emo_menu.active .ts_icon_happy_smile, #message_edit_form .emo_menu:hover .ts_icon_happy_smile { color: var(--background-elevated); }
+#message_edit_form .emo_menu.active .ts_icon_happy_smile, #message_edit_form .emo_menu:hover .ts_icon_happy_smile { color: var(--primary); }
 
 #message_edit_form.focus .emo_menu { color: var(--border-darken); }
 
@@ -435,9 +435,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .menu .menu_filter_container input.menu_filter:focus { border-color: var(--scrollbar-background); }
 
-.menu .menu_filter_container .icon_search { color: var(--background-elevated); }
+.menu .menu_filter_container .icon_search { color: var(--primary); }
 
-.menu .menu_filter_container .icon_close { color: var(--background-elevated) !important; }
+.menu .menu_filter_container .icon_close { color: var(--primary) !important; }
 
 .menu #menu_header .menu_simple_header { background: var(--black); border-color: var(--border-dim); color: var(--primary); }
 
@@ -693,7 +693,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .slack_menu_download { background-color: var(--border-dim); }
 
-.slack_menu_download ts-icon { color: var(--background-elevated); }
+.slack_menu_download ts-icon { color: var(--primary); }
 
 #menu_items_scroller::-webkit-scrollbar-track { background: var(--background-elevated) !important; }
 
@@ -853,7 +853,7 @@ ts-message.highlight:hover { background: var(--danger); }
 
 ts-message .is_highlights_holder { color: var(--background-elevated); }
 
-ts-message .is_highlights_holder ts-icon { color: var(--background-elevated); }
+ts-message .is_highlights_holder ts-icon { color: var(--primary); }
 
 ts-message .is_highlights_holder .highlights_feedback_link { color: var(--background-elevated); }
 
