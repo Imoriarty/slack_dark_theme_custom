@@ -721,7 +721,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #im_title.away { color: var(--background-elevated); }
 
-.channel_header_info button { color: var(--background-elevated); }
+.channel_header_info button { color: var(--primary); }
 
 .channel_title_info { background: var(--background-elevated); color: var(--background-elevated); }
 
