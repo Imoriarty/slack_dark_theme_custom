@@ -1,14 +1,14 @@
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #09F;
-   --text: #DDD;
+   --primary: #d7ba7d;
+   --text: #d7ba7d;
    --background: #111;
    --background-elevated: #222;
 
    /* These should be less important: */
    --background-hover: rgba(180, 180, 180, 0.1);
-   --background-light: #888;
-   --background-bright: #000;
+   --background-light: #444;
+   --background-bright: #777;
 
    --border-dim: #555;
    --border-bright: var(--primary);
@@ -20,7 +20,7 @@
    --scrollbar-border: var(--primary);
 }
 
-body { background: #444444; color: #d7ba7d; }
+body { background: #222; color: #d7ba7d; }
 
 a { color: #777; }
 
@@ -1354,8 +1354,6 @@ body > pre { background: #828282; }
 #threads_msgs_scroller_div .threads_caught_up_divider .divider_label { background: #545454; color: #d7ba7d; }
 
 #threads_msgs_scroller_div.loading { background: none; }
-
-#threads_msgs_scroller_div.loading::before { color: #d7ba7d; }
 
 #threads_view_banner.messages_banner { background: #363636; }
 
