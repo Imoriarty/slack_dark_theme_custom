@@ -1155,9 +1155,9 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 
 #archives_return a:hover { color: rgba(230, 230, 230, 0.8); }
 
-#messages_unread_status { background: #545454; }
+#messages_unread_status { background: #CCC; }
 
-#messages_unread_status:hover { background: #828282; }
+#messages_unread_status:hover { background: #DDD; }
 
 #messages_unread_status:hover .clear_unread_messages { background: #828282; }
 
@@ -1361,7 +1361,7 @@ body > pre { background: #828282; }
 
 #threads_view_banner.messages_banner:hover { background: #545454; }
 
-#threads_view_banner.messages_banner:hover .clear_unread_messages { background: #545454; }
+#threads_view_banner.messages_banner:hover .clear_unread_messages { background: #888; }
 
 #threads_msgs.new_banner_is_showing::before { background: #222; }
 
@@ -1405,7 +1405,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 #unread_msgs_scroller_div.loading { background-image: none; }
 
-#unread_msgs_scroller_div.loading::before { color: #777; }
+#unread_msgs_scroller_div.loading::before { color: #444; }
 
 #unread_msgs_div .day_divider .day_divider_line { border-top-color: #363636; }
 
