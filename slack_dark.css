@@ -21,10 +21,6 @@
 
 body { background: var(--background); color: var(--primary); }
 
-div { background: var(--background-elevated); color: var(--primary); }
-
-p { background: var(--background-elevated); color: var(--primary); }
-
 a { color: var(--background-elevated); }
 
 a:link, a:visited { color: var(--background-elevated); }
