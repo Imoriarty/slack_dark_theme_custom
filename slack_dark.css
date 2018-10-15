@@ -83,7 +83,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: var(--primary); }
 
 .p-channel_sidebar { background-color: var(--border-dim); color: var(--primary); }
 
-.p-channel_sidebar__channel, .p-channel_sidebar__channel:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__channel:hover, .p-channel_sidebar__link, .p-channel_sidebar__link:link, .p-channel_sidebar__link:visited, .p-channel_sidebar__link:hover { color: var(--highlight-overlay) !important; }
+.p-channel_sidebar__channel, .p-channel_sidebar__channel:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__link, .p-channel_sidebar__link:link, .p-channel_sidebar__link:visited, .p-channel_sidebar__link:hover { color: var(--highlight-overlay) !important; }
 
 .p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:link, .p-channel_sidebar__channel--selected:visited, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected, .p-channel_sidebar__link--selected:link, .p-channel_sidebar__link--selected:visited, .p-channel_sidebar__link--selected:hover { color: var(--primary); }
 
@@ -113,7 +113,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: var(--primary); }
 
 .channels_list_holder h2 { color: var(--primary) !important; }
 
-.channels_list_holder h2.hoverable:not(.jquery_hover):hover { color: var(--primary); opacity: 0.8; }
+.channels_list_holder h2.hoverable:not(.jquery_hover):hover { color: var(--primary); opacity: 0.6; }
 
 .channels_list_holder ul { color: var(--primary) !important; }
 
@@ -167,7 +167,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: var(--primary); }
 
 body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_menu_overlay, body.loading #col_channels_overlay, body.loading #col_channels { background-color: var(--background); }
 
-input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type='url'], input[type=tel], input[type=color], input[type=search] { background-color: var(--scrollbar-background); border-color: var(--black); color: var(--primary); }
+input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type='url'], input[type=tel], input[type=color], input[type=search] { background-color: var(--scrollbar-background); border-color: var(--background-elevated); color: var(--primary); }
 
 input[type=text]:focus, input[type=password]:focus, input[type=datetime]:focus, input[type=datetime-local]:focus, input[type=date]:focus, input[type=month]:focus, input[type=time]:focus, input[type=week]:focus, input[type=number]:focus, input[type=email]:focus, input[type='url']:focus, input[type=tel]:focus, input[type=color]:focus, input[type=search]:focus { border-color: var(--border-darken); box-shadow: inset 0 1px 1px var(--border-darken), 0 0 8px var(--border-darken); }
 
